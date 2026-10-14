@@ -1,0 +1,15 @@
+# 本机工作区适配与私人资料
+references/*.local.md
+*.local.*
+private/
+raw-data/
+
+# 凭证与运行缓存
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+__pycache__/
+*.pyc
